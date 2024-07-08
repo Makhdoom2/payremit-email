@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template Payremit</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        color: #000000;
+      }
+      .container {
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+      .header {
+        background-color: #eefffd;
+        padding: 20px 5%;
+        text-align: left;
+      }
+      .header img {
+        max-width: 194px;
+        height: auto;
+      }
+      .content {
+        /* padding: 0 32px; */
+        border-bottom: 1px solid #000;
+      }
+      h2 {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 25px;
+      }
+      p {
+        font-size: 13px;
+        font-weight: 300;
+        margin-top: 5px;
+      }
+      .footer {
+        background-color: #eefffd;
+        padding: 20px 5%;
+        text-align: left;
+        align-items: left;
+      }
+      .social-icons img {
+        max-width: 30px;
+        margin-left: 22px;
+      }
+
+      @media screen and (max-width: 473px) {
+        .social-icons img {
+          margin-left: 10px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <table cellpadding="0" cellspacing="0" style="width: 100%">
+      <!-- Dual-color line -->
+      <!-- Dual-color line -->
+      <tr>
+        <td>
+          <table
+            cellpadding="0"
+            cellspacing="0"
+            style="width: 100%; background: #000000"
+          >
+            <tr>
+              <td
+                width="60%"
+                style="background-color: #00ffe0; height: 13px"
+              ></td>
+              <td
+                style="
+                  width: 0;
+                  height: 0;
+                  border-top: 13px solid #00ffe0;
+                  border-right: 13px solid transparent;
+                "
+              ></td>
+              <td
+                width="40%"
+                style="background-color: #000000; height: 13px"
+              ></td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- Header -->
+      <tr>
+        <td>
+          <table class="container">
+            <tr>
+              <td class="header">
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/b648c546aea3f254675101b95a2f2e528.png"
+                  alt="Logo"
+                />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- Name -->
+      <tr>
+        <td>
+          <table
+            style="width: 55%; margin: 0 5%"
+            cellspacing="0"
+            cellpadding="0"
+          >
+            <tr>
+              <td class="content" style="background-color: #ffffff">
+                <h2>Dear {First Name}</h2>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- Content -->
+      <tr>
+        <td>
+          <table style="width: 90%; margin: 0 auto">
+            <tr>
+              <td colspan="2" style="background-color: #ffffff">
+                <h2 style="margin-top: 31px">Welcome to Payremit!</h2>
+                <p>
+                  Welcome to the Payremit family! 🎉 We're thrilled to have you
+                  on board.
+                  <br />
+                  <br />
+                  At Payremit, we're committed to making your cryptocurrency
+                  exchange experience smooth and easy. Now that you've joined
+                  us, you can effortlessly swap your cryptocurrencies to Naira
+                  in just a few clicks
+                </p>
+
+                <h2>Here are a few things to get you started:</h2>
+
+                <h2>Explore the Dashboard</h2>
+                <p>
+                  Check out your dashboard to see your wallet and make your
+                  first deposit.
+                </p>
+
+                <h2>Complete your Profile</h2>
+                <p>
+                  Ensure your profile is complete and add your payment
+                  information
+                </p>
+
+                <h2>Make Your First Swap</h2>
+                <p>
+                  Ready to swap? Head over to the swap section and start
+                  exchanging your crypto
+                </p>
+
+                <h2>Use Our Utilities</h2>
+                <p>
+                  Take advantage of our utilities without upgrading your
+                  account. You buy data, airtime and electricity units easily
+                </p>
+
+                <h2>Upgrade your account</h2>
+                <p>
+                  To deposit Naira and access additional features, make sure to
+                  upgrade your account. This will unlock more benefits and
+                  enhance your experience on payremit
+                </p>
+
+                <h2>Stay Secure</h2>
+                <p>
+                  Make sure to set up two-factor authentication (2FA) for added
+                  security. Your safety is our priorit
+                </p>
+
+                <h2>Need help? Visit the Payremit Help Centre</h2>
+                <p>
+                  If you have any questions or need assistance, our support team
+                  is here to help. Feel free to reach out to us at
+                  help@payremit.io.
+                  <br />
+                  <br />
+                  Thank you for choosing Payremit. We’re excited to be part of
+                  your cryptocurrency journey
+                  <br />
+                  <br />
+                  <br />
+                  Best regards,
+                  <br />The Payremit Team
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!-- Footer -->
+      <tr>
+        <td>
+          <table class="container" cellspacing="0" cellpadding="0">
+            <tr class="social-icons">
+              <td class="footer">
+                <img
+                  style="margin-left: 0px"
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/de3e96a59cdb5331683aa284f9f7c3c1.png"
+                  alt="Facebook"
+                />
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/10d576c5d8e688ce67c7cf1e897661543.png"
+                  alt="Twitter"
+                />
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/b910929106376ac09222459ca4104882c100.png"
+                  alt="Instagram"
+                />
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/d5ef6c9eb4105f9a21055235e3cad5e110f.png"
+                  alt="YouTube"
+                />
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/891bc528d6da5bdfa6c5ccff2a7d132c.png"
+                  alt="TikTok"
+                />
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/d38b2eae4096743b4122cab20141fa39.png"
+                  alt="Apple Store"
+                />
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/3e7c05f1087ee89f6e378e1bb7f93c8b2.png"
+                  alt="Google Play"
+                />
+                <img
+                  src="https://stg-api.payremit.io/media-upload/mediaFiles/logo/3515497d2d3a5e49a445731e586eb5b9.png"
+                  alt="icon"
+                />
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
